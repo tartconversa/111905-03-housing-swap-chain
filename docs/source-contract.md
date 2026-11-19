@@ -4,7 +4,7 @@
 
 本渠道键以channel加local_id区分，不能跨渠道直接相等连接；授权凭证kind为household或fund_path，二者证明内容不同。
 
-scope_project与valid_from/valid_to共同限定凭证，revokes引用原凭证，撤销自effective业务期生效，received表示合作方获知时间。歧义凭证给出多个候选，不声明唯一家庭。
+scope_project与valid_from/valid_to共同限定凭证，revokes引用原凭证，撤销自本条valid_from业务期生效，received表示合作方获知时间。歧义凭证给出多个候选，不声明唯一家庭。
 
 funds金额为人民币分，release可归属资金、return回退原release的资金；allocations只是来源声称的使用意向，actual表示已核实用途凭证，不构成无限额度。
 
