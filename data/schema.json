@@ -1,0 +1,54 @@
+{
+  "format": "UTF-8 NDJSON",
+  "datasets": {
+    "transactions": {
+      "description": "各渠道交易事实",
+      "fields": {
+        "channel": "string",
+        "local_id": "string",
+        "kind": "string",
+        "stage": "string",
+        "project": "string",
+        "date": "string",
+        "amount_cents": "integer"
+      }
+    },
+    "credentials": {
+      "description": "受限关联凭证",
+      "fields": {
+        "credential_id": "string",
+        "kind": "string",
+        "left": "object",
+        "candidates": "array",
+        "scope_project": "string",
+        "valid_from": "string",
+        "valid_to": "any",
+        "received": "string",
+        "revokes": "any"
+      }
+    },
+    "funds": {
+      "description": "实际释放与退回",
+      "fields": {
+        "fund_id": "string",
+        "sale_channel": "string",
+        "sale_id": "string",
+        "kind": "string",
+        "amount_cents": "integer",
+        "date": "string",
+        "reference": "any"
+      }
+    },
+    "allocations": {
+      "description": "有凭证的资金使用片段",
+      "fields": {
+        "piece_id": "string",
+        "fund_id": "string",
+        "purchase": "string",
+        "amount_cents": "integer",
+        "credential": "string",
+        "actual": "boolean"
+      }
+    }
+  }
+}

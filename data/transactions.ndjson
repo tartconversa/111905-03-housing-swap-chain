@@ -1,0 +1,4 @@
+{"amount_cents": 10000000, "channel": "agent-a", "date": "2026-10-20", "kind": "sale", "local_id": "S1", "project": "OLD1", "stage": "settled"}
+{"amount_cents": 4000000, "channel": "agent-b", "date": "2026-10-21", "kind": "sale", "local_id": "S2", "project": "OLD2", "stage": "settled"}
+{"amount_cents": 8000000, "channel": "builder", "date": "2026-11-01", "kind": "purchase", "local_id": "P1", "project": "NEW1", "stage": "signed"}
+{"amount_cents": 6000000, "channel": "builder", "date": "2026-11-03", "kind": "purchase", "local_id": "P2", "project": "NEW2", "stage": "intent"}

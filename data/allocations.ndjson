@@ -1,0 +1,3 @@
+{"actual": true, "amount_cents": 5000000, "credential": "F1", "fund_id": "R1", "piece_id": "A1", "purchase": "P1"}
+{"actual": false, "amount_cents": 2000000, "credential": "F1", "fund_id": "R2", "piece_id": "A2", "purchase": "P2"}
+{"actual": true, "amount_cents": 3000000, "credential": "F2", "fund_id": "R3", "piece_id": "A3", "purchase": "P1"}

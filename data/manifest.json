@@ -1,0 +1,29 @@
+{
+  "description": "本地合成资料；不含真实个人或机构数据。",
+  "files": [
+    {
+      "path": "transactions.ndjson",
+      "dataset": "transactions",
+      "rows": 4,
+      "sha256": "c757c52a67c1c976909a24b06dcf096aa5c0bd8a803e16d218ce232dfdc98a9d"
+    },
+    {
+      "path": "credentials.ndjson",
+      "dataset": "credentials",
+      "rows": 4,
+      "sha256": "c7567dda7f43c8e4a7c978fbdca6135268f5d6985ef5d29c47a8588a85e0936f"
+    },
+    {
+      "path": "funds.ndjson",
+      "dataset": "funds",
+      "rows": 4,
+      "sha256": "47ab9ce3031753bde8caff14d3d7d9cd3ae3a6cc0e6c36aa560baafe4b68cafa"
+    },
+    {
+      "path": "allocations.ndjson",
+      "dataset": "allocations",
+      "rows": 3,
+      "sha256": "7e7303eb405fc79ad459dd4832bd59f28107d306843dfa90231e3a8e6f4926b2"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+{"amount_cents": 7000000, "date": "2026-10-22", "fund_id": "R1", "kind": "release", "reference": null, "sale_channel": "agent-a", "sale_id": "S1"}
+{"amount_cents": 3000000, "date": "2026-11-02", "fund_id": "R2", "kind": "release", "reference": null, "sale_channel": "agent-a", "sale_id": "S1"}
+{"amount_cents": 4000000, "date": "2026-10-23", "fund_id": "R3", "kind": "release", "reference": null, "sale_channel": "agent-b", "sale_id": "S2"}
+{"amount_cents": 1000000, "date": "2026-11-10", "fund_id": "RET1", "kind": "return", "reference": "R2", "sale_channel": "agent-a", "sale_id": "S1"}
